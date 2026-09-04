@@ -1,0 +1,18 @@
+# env files
+*.env
+.env
+.env.*
+!.env.example
+
+# dependencies / build
+node_modules/
+bun.lock
+dist/
+bin/
+*.wasm
+*.wasm.br
+*.wasm.br.b64
+.cre_build_tmp.*
+
+# OS
+.DS_Store
